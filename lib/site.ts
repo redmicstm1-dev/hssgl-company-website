@@ -9,7 +9,7 @@ export const site = {
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "2348051851908",
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL || "oscog2005@gmail.com",
   address: process.env.NEXT_PUBLIC_COMPANY_ADDRESS || "No. 7 DGideons Street, Akwuöse, Asaba, Delta State, Nigeria",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://halidengroup.com.ng",
   formEndpoint: "https://api.web3forms.com/submit",
   formAccessKey: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || "",
 } as const;
@@ -24,12 +24,12 @@ export const navItems = [
 
 // These service categories reflect the requested scope; confirm regulatory requirements and launch readiness with the client before publishing service-specific claims.
 export const services = [
-  { title: "Manned Security Personnel", text: "Security personnel support for organisations seeking a visible, professional presence at their premises. Service arrangements are discussed around the site, operating hours and client requirements.", icon: "/icons/guard.svg", image: "/images/service-manpower.webp" },
+  { title: "Manned Security Personnel", text: "Security personnel support for organisations seeking a visible, professional presence at their premises. Service arrangements are discussed around the site, operating hours and client requirements.", icon: "/icons/guard.svg", image: "/images/service-manpower.jpg" },
   { title: "Corporate Office Security", text: "Security support for offices and business premises, with attention to access points, visitors and the day-to-day needs of the workplace.", icon: "/icons/building.svg", image: "/images/service-corporate-offices.webp" },
   { title: "Residential Estate Security", text: "Security personnel support for residential estates and managed properties, tailored to the layout and requirements of the community.", icon: "/icons/estate.svg", image: "/images/service-residential-estates.webp" },
-  { title: "Event Security Support", text: "Security arrangements for events and venues, discussed in line with the event format, expected attendance and venue requirements.", icon: "/icons/event.svg", image: "/images/service-event-security.webp" },
+  { title: "Event Security Support", text: "Security arrangements for events and venues, discussed in line with the event format, expected attendance and venue requirements.", icon: "/icons/event.svg", image: "/images/service-event-security.jpg" },
   { title: "Facility and Site Security", text: "Security support for facilities and sites that need a considered approach to access, activity and the protection of their operating environment.", icon: "/icons/building.svg", image: "/images/service-facility-security.webp" },
-  { title: "Personal Protection Enquiries", text: "Enquiries about individual protection needs can be discussed to establish the nature of the requirement and whether an appropriate service can be arranged.", icon: "/icons/shield-check.svg", image: "/images/service-close-protection.webp" },
+  { title: "Personal Protection Enquiries", text: "Enquiries about individual protection needs can be discussed to establish the nature of the requirement and whether an appropriate service can be arranged.", icon: "/icons/shield-check.svg", image: "/images/service-close-protection.jpg" },
 ] as const;
 
 export const industries = [

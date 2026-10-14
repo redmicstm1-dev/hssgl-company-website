@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 
 export function Hero() {
   return <section className="hero">
-    <Image src="/images/hero-security.webp" alt="Professional security personnel outside a modern corporate facility" fill priority sizes="100vw" className="hero-image" />
+    <Image src="/images/hero-security.png" alt="Professional security personnel outside a modern corporate facility" fill priority sizes="100vw" className="hero-image" />
     <div className="hero-overlay" />
     <div className="container hero-content">
       <span className="eyebrow">PROFESSIONAL SECURITY SOLUTIONS</span>

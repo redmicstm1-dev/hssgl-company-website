@@ -20,7 +20,6 @@ export function ServiceCard({ title, text, icon, image }: ServiceCardProps) {
         </div>
         <h3>{title}</h3>
         <p>{text}</p>
-        <Link href="/services">Explore service <span aria-hidden="true">→</span></Link>
       </div>
     </article>
   );
