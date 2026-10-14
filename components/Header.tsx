@@ -14,7 +14,7 @@ export function Header() {
     <header className="site-header">
       <div className="container header-inner">
         <Link href="/" className="brand" onClick={() => setOpen(false)} aria-label={`${site.name} home`}>
-          <span className="brand-mark"><Image src="/logo.png" alt="" width={42} height={48} priority /></span>
+          <span className="brand-mark"><Image src="/logos.png" alt="" width={42} height={48} priority /></span>
           <span className="brand-copy"><strong>{site.shortName}</strong><small>SECURITY SERVICES &amp; GUARD LIMITED</small></span>
         </Link>
         <nav id="main-navigation" className={`main-nav ${open ? "is-open" : ""}`} aria-label="Main navigation">

@@ -8,7 +8,7 @@ export function Footer() {
       <div className="container footer-grid">
         <div>
           <Link href="/" className="brand footer-brand">
-            <span className="brand-mark"><Image src="/logo.png" alt="" width={38} height={44}/></span>
+            <span className="brand-mark"><Image src="/logos.png" alt="" width={38} height={44}/></span>
             <span><strong>{site.shortName}</strong><small>Trust. Vigilance. Protection.</small></span>
           </Link>
           <p>Security service enquiries for businesses and organisations in Asaba, Delta State, and surrounding areas.</p>
